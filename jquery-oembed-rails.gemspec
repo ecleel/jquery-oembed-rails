@@ -8,9 +8,9 @@ Gem::Specification.new do |spec|
   spec.version       = Jquery::Oembed::Rails::VERSION
   spec.authors       = ["Abdulaziz AlShetwi"]
   spec.email         = ["e@ecleel.com"]
-  spec.summary       = %q{JQuery OEmbed for rails}
-  spec.description   = %q{JQuery OEmbed for rails}
-  spec.homepage      = ""
+  spec.summary       = %q{jquery-oembed-all rails assets pipeline.}
+  spec.description   = %q{gem enable oEmbed for rails using jquery-oembed-all.}
+  spec.homepage      = "https://github.com/ecleel/jquery-oembed-rails"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
