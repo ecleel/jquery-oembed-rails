@@ -1,6 +1,6 @@
-# Jquery::Oembed::Rails
+# jquery-oembed-rails
 
-TODO: Write a gem description
+Rails assets gem for the amazing jquery-oembed-all(url) plugin.
 
 ## Installation
 
@@ -18,7 +18,26 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Add this line to application.js
+
+    //= require jquery.oembed
+
+Also Add this line for application.css
+
+    *= require jquery.oembed
+
+Then add this to you javascript file.
+
+````
+$(function(){
+   $("a.embed").oembed();
+});
+````
+Add `class="embed"` to anchor tag which contains the URL you wish to embed.  
+Ex: `<a href="http://www.youtube.com/watch?v=8mwKq7_JlS8" class="embed"></a>`
+Ex: `<%= link_to link.url, link.url, class: 'embed' %>`
+
+for more information about plugin options read [Jquery-Oembed-All readme file] (https://github.com/starfishmod/jquery-oembed-all/blob/master/README.md)
 
 ## Contributing
 
