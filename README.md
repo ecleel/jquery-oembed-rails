@@ -1,4 +1,4 @@
-# jquery-oembed-rails  [![Gem Version](https://badge.fury.io/rb/jquery-oembed-rails.svg)](http://badge.fury.io/rb/jquery-oembed-rails)
+# jquery-oembed-rails  [![Gem Version](https://badge.fury.io/rb/jquery-oembed-rails.svg)](http://badge.fury.io/rb/jquery-oembed-rails) [![Build Status](https://travis-ci.org/ecleel/jquery-oembed-rails.svg)](https://travis-ci.org/ecleel/jquery-oembed-rails)
 
 Rails assets gem for the amazing [jquery-oembed-all](https://github.com/starfishmod/jquery-oembed-all) plugin.
 
