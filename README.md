@@ -1,6 +1,6 @@
 # jquery-oembed-rails  [![Gem Version](https://badge.fury.io/rb/jquery-oembed-rails.svg)](http://badge.fury.io/rb/jquery-oembed-rails) [![Build Status](https://travis-ci.org/ecleel/jquery-oembed-rails.svg)](https://travis-ci.org/ecleel/jquery-oembed-rails)
 
-Rails assets gem for the amazing [jquery-oembed-all](https://github.com/starfishmod/jquery-oembed-all) plugin.
+Rails assets gem for the amazing [jquery-oembed-all](https://github.com/nfl/jquery-oembed-all) plugin.
 
 ## oEmbed
 
@@ -43,7 +43,7 @@ Add `class="embed"` to anchor tag which contains the URL you wish to embed.
 Ex: `<a href="http://www.youtube.com/watch?v=8mwKq7_JlS8" class="embed"></a>`
 or use `link_to` helper method `<%= link_to link.url, link.url, class: 'embed' %>`
 
-for more information about plugin options read [Jquery-Oembed-All readme file] (https://github.com/starfishmod/jquery-oembed-all/blob/master/README.md)
+for more information about plugin options read [Jquery-Oembed-All readme file] (https://github.com/nfl/jquery-oembed-all/blob/master/README.md)
 
 ## Contributing
 
